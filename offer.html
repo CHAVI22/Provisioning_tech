@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--  FAVICON  -->
+    <link rel="shortcut icon" href="images/icons/favicon.png">
+
+    <!-- FONT AWESOME ICONS LIBRARY -->
+    <link rel="stylesheet" href="fonts/css/all.min.css">
+
+
+
+    <!-- REVOLUTION ADDONS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto%3A700%2C300" rel="stylesheet" property="stylesheet"
+        type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" type="text/css" href="revolution/fonts/font-awesome/css/font-awesome.css">
+
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+
+    <!-- REVOLUTION LAYERS STYLES -->
+    <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+
+    <!-- REVOLUTION NAVIGATION STYLES -->
+    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+
+    <!-- CSS LIBRARY STYLES -->
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel='stylesheet' href="css/lib/flickity.min.css">
+    <link rel='stylesheet' href="css/lib/magnific-popup.min.css">
+    <link rel="stylesheet" href="css/lib/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/lib/slick.min.css">
+    <link rel="stylesheet" href="css/lib/aos.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <!-- CSS TEMPLATE STYLES -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+        .plan-card {
+            padding-top: 100px;
+        }
+
+        .plan-content {
+            border-radius: 15px;
+            text-align: center;
+            background: #4d4381;
+            color: #fff;
+            transition: all 0.2s linear;
+            transform: scale(1);
+            box-shadow: 0px -5px rgba(0, 0, 0, 0.2);
+        }
+
+        .plan-icon fa {
+            color: #f4a3de;
+        }
+
+        .plan-content:hover {
+            background: #f4a3de;
+            transform: scale(1.04);
+        }
+
+        .plan-card .plan-content .plan-icon i {
+            font-size: 2.5rem;
+        }
+
+        .plan-card .plan-content .plan-heading {
+            font-size: 1.8rem;
+            font-weight: lighter;
+            letter-spacing: 3px;
+        }
+
+        .plan-card .plan-content .sub_title {
+            font-size: 1.2rem;
+        }
+
+        .plan-card .plan-content .plan-price {
+            font-size: 4rem;
+            line-height: 66px;
+            color: #f9c3fd;
+        }
+
+        .plan-card .plan-content ul li {
+            padding: 6px;
+            font-weight: 300;
+            word-spacing: 3px;
+            line-height: 1.8rem;
+            font-weight: bold;
+            font-size: 90%;
+            text-transform: uppercase;
+        }
+
+        .plan-card .plan-content ul li span i {
+            color: #ee8897;
+        }
+
+        .plan-card .plan-content a {
+            background-color: #fff;
+            color: black;
+            padding: 0.7rem 3rem;
+            font-weight: 700;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: all 0.2s linear;
+        }
+
+        .plan-content a {
+            background-color: #ee8897;
+        }
+
+        .plan-card .plan-content a:hover {
+            background: #a71e7e;
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- LOADER -->
+    <div id="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+    <!-- LOADER -->
+
+    <header>
+        <!-- TOP HEADER START -->
+        <div class="top-header-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="top-header-left">
+                            <a href="tel:6397650818">
+                                <p class="phone"> <span><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                                    6397650818</p>
+                            </a>
+
+                            <a href="login1.html">
+                                <p class="login"><span><i class="fa fa-lock" aria-hidden="true"></i></span> Login or
+                                    Register</p>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <div class="top-header-right">
+                            <p class="schedule">Office Hours: 09:00 AM - 3:00 PM</p>
+                            <ul class="top-social">
+                                <li><a href="#" class="fa fa-facebook"></a></li>
+                                <li><a href="#" class="fa fa-twitter"></a></li>
+                                <li><a href="#" class="fa fa-linkedin"></a></li>
+                                <li><a href="#" class="fa fa-instagram"></a></li>
+                            </ul>
+                            <a class="btn btn-default" href="contact-us.html" role="button">contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TOP HEADER END -->
+
+        <!-- NAV START -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><img src="images/logos/logo1.jpg" alt=""></a>
+
+                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
+                    <span class="menu-icon-bar"></span>
+                    <span class="menu-icon-bar"></span>
+                    <span class="menu-icon-bar"></span>
+                </button>
+
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="dropdown">
+                            <a onclick="location.href = 'index.html' " class="nav-item nav-link"
+                                data-toggle="dropdown">HOME</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="nav-item nav-link" data-toggle="dropdown">WHY US</a>
+                            <div class="dropdown-menu">
+                                <a href="about-us.html" class="dropdown-item">About Us</a>
+                                <a href="missionvision.html" class="dropdown-item"> Mission & Vission</a>
+                                <a href="ourteam.html" class="dropdown-item">Our Team EXPERT</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a onclick="location.href = 'faq.html' " class="nav-item nav-link"
+                                data-toggle="dropdown">FAQ</a>
+                        </li>
+                        <li class="dropdown">
+                            <a onclick="location.href = 'offer.html' " class="nav-item nav-link"
+                                data-toggle="dropdown">OFFERS</a>
+                        </li>
+                        <li class="dropdown">
+                            <a onclick="location.href = 'development.html' " class="nav-item nav-link"
+                                data-toggle="dropdown">DEVELOPMENT</a>
+                        </li>
+                        <li class="dropdown">
+                            <a onclick="location.href = 'career.html' " class="nav-item nav-link"
+                                data-toggle="dropdown">CAREER</a>
+                        </li>
+                        <li class="dropdown">
+                            <a onclick="location.href = 'contact-us.html' " class="nav-item nav-link last-link-item"
+                                data-toggle="dropdown">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section>
+        <!-- CONTENT START -->
+        <div class="plan-card my-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+                        <div class="plan-content py-5" style="width: 30x; height: 1000px;">
+                            <div class="plan-icon pb-4">
+                                <i class="fa fa-bullhorn" style="color:#ee8897" aria-hidden="true"></i>
+                            </div>
+                            <h1 class="plan-heading">3- Months </h1>
+                            <p class="sub_title m-0 py-2" style="color:#fff; text-align:center;">Website Development
+                            </p>
+                            <p class="plan-price m-0" style="color:#fff; text-align:center;">₹5000/-</p>
+                            <p class="mini-subtitle mb-3" style="font-size: 90%; color:#fff; text-align:center;"> 3
+                                Months</p>
+
+                            <ul class="p-0 mb-5">
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> HTML ,CSS,JavaScript,
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> Basic 1 Backend Language
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> Database Connection
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> SQL Language
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> 2 + Core Project Training
+                                </li>
+                            </ul>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <a href="submit.html" style="background-color:#ee8897">Submit Enquiry </a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+                        <div class="plan-content py-5 " style="width: 30x; height: 1000px;">
+                            <div class="plan-icon pb-4">
+                                <i class="fa fa-bullhorn" style="color:#ee8897" aria-hidden="true"></i>
+                            </div>
+                            <h1 class="plan-heading">6- Months </h1>
+                            <p class="sub_title m-0 py-2" style="color:#fff; text-align:center;">Webiste Development
+                            </p>
+                            <p class="plan-price m-0" style="color:#fff; text-align:center;">₹10,000/-</p>
+                            <p class="mini-subtitle mb-3" style="font-size: 90%; color:#fff; text-align:center;"></p>
+
+                            <ul class="p-0 mb-5">
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> HTML ,CSS,JavaScript,
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> Basic 1 Backend Language
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> Database Connection
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> SQL Language
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> 2 + Core Project Training
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> 1 Advance Language Python/PHP
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> Practice On Python/PHP FrameWork
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> 2 + More (Live Projects)
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> 6 Months Internship Letter
+                                </li>
+                            </ul>
+                            <br>
+                            <br>
+                            <a href="submit.html" style="background-color:#ee8897" ;>Submit Enquiry</a>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+                        <div class="plan-content py-5" style="width: 30x; height: 1000px" ;>
+                            <div class="plan-icon pb-4">
+                                <i class="fa fa-bullhorn" style="color:#ee8897" aria-hidden="true"></i>
+                            </div>
+                            <h1 class="plan-heading" style="color:#fff; text-align:center;"> 12 Months </h1>
+                            <p class="sub_title m-0 py-2" style="color:#fff; text-align:center;"> Andrpid + Website
+                                Development </p>
+                            <p class="plan-price m-0" style="color:#fff; text-align:center;">₹25,000/-</p>
+                            <p class="mini-subtitle mb-3" style="font-size: 90%; color:#fff; text-align:center;">valid
+                                for 1 year</p>
+
+                            <ul class="p-0 mb-5">
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> HTML, CSS, JAVASCRIPT, JQuery
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> 1 Advance Language
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> OOP PRograming Concept
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> Website Development With Python/PHP
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> SQL Language
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> 6 Months Android Development Training
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> 1 Year Experience Letter.
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> Full Stack Development
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> Job Offer Letter.
+                                </li>
+                            </ul>
+
+                            <a href="submit.html" style="background-color:#ee8897">Submit Enquiry</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+                        <div class="plan-content py-5" style="width: 30x; height: 1000px;">
+                            <div class="plan-icon pb-4">
+                                <i class="fa fa-bullhorn" style="color:#ee8897" aria-hidden="true"></i>
+                            </div>
+                            <h1 class="plan-heading" style="color:#fff; text-align:center;">3- Months </h1>
+                            <p class="sub_title m-0 py-2" style="color:#fff; text-align:center;">Website Development
+                            </p>
+                            <p class="plan-price m-0" style="color:#fff; text-align:center;">₹5000/-</p>
+                            <p class="mini-subtitle mb-3" style="font-size: 90%; color:#fff; text-align:center;"> 3
+                                Months</p>
+
+                            <ul class="p-0 mb-5">
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> HTML ,CSS,JavaScript,
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> Basic 1 Backend Language
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> Database Connection
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> SQL Language
+                                </li>
+                                <li><span>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span> 2 + Core Project Training
+                                </li>
+                            </ul>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <a href="submit.html" style="background-color:#ee8897">Submit Enquiry</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTENT END -->
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="container mt-5">
+            <div class="top-footer">
+                <div class="row">
+                    <div class="col-lg-12 col-xl-7">
+                        <h3 style="text-align: center;">THE LATEST DEVELOPMENTS IN YOUR BOX EVERY WEEK</h3>
+                    </div>
+                    <div class="col-lg-12 col-xl-5">
+                        <div class="footer-btn">
+                            <!-- <a class="btn-default" href="subscribe.html" role="button">Subscribe</a> -->
+                            <button type="submit" class="btn" onclick="openpopup()">Subscribe <i class="fa fa-bell"
+                                    style="color:black" ;></i></button>
+                        </div>
+                        <div class="popup" id="popup">
+                            <img src="images/tick.jpg">
+                            <h2>Thank You! &#128526;</h2>
+                            <p style="color:black" ;>Thanks for subscribing!</p>
+                            <p style="color: black;">Visit Again</p>
+                            <button type="button" onclick="closepopup()">OKAY</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footer-line">
+            <div class="center-footer">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="footer-col footer-left-col">
+                            <figure class="site-footer-logo">
+                                <img src="images/logos/logo1.jpg" alt="">
+                            </figure>
+                            <p>We are dedicated to the production and IT Business Solution company that started
+                                in 2016 as an IT company that is providing Website Design & Development, Web
+                                Application Development, Mobile Application Development.</p>
+                            <ul class="footer-social">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="footer-col">
+                            <h5>Quick Links</h5>
+                            <ul class="quick-links">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="services.html">Offers</a></li>
+                                <li><a href="blog-grid.html">Developement</a></li>
+                                <li><a href="contact-us.html">Career</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="footer-col">
+                            <h5>About</h5>
+                            <ul class="quick-links">
+                                <li><a href="history.html">About us</a></li>
+                                <li><a href="our-team.html">Team</a></li>
+                                <li><a href="clients-and-testimonials.html">Contact</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-col">
+                            <h5>Get in Touch</h5>
+                            <ul class="footer-contact">
+                                <div class="phone"><a href="tel:6397650818"><i class="fa fa-mobile"
+                                            style="color: white;"></i>6397650818</a>
+                                    <div class="phone"><a href="tel:8650559698"><i class="fa fa-mobile"
+                                                style="color: white;"></i>8650559698</a>
+                                        <div class="email"><a href="mailto:provisioningtech@gmail.com"><i
+                                                    class="material-icons">&#xe0be;
+                                                    &nbsp;</i>provisioningtech@gmail.com</a>
+                                            <div class="email"><a href="mailto:info@provisioningtech.com"><i
+                                                        class="material-icons">&#xe0be;
+                                                        &nbsp;</i>info@provisioningtech.com</a>
+                                                <div class="media">
+                                                    <i class="fa fa-map-marker" style="color: white;"></i>
+                                                    <div class="media-body">
+                                                        <p>Vibhav Nagar Gate No 2, Indra Medical Store Ke Upar,
+                                                            Jalesar Road , Firozabad (U.P)</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-line">
+            <div class="bottom-footer">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="footer-copyright">
+                            <p> Copyright © 2023 <a href="#">PROVISIONING TECH. All Right Reserved</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--SCROLL TOP START-->
+    <a href="#0" class="cd-top">Top</a>
+    <!--SCROLL TOP START-->
+    <script>
+        let popup = document.getElementById("popup");
+        function openpopup() {
+            popup.classList.add("open-popup");
+        }
+
+        function closepopup() {
+            popup.classList.remove("open-popup");
+        }
+    </script>
+    <!-- JAVASCRIPTS -->
+    <script src="js/lib/jquery-3.5.1.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/plugins.js"></script>
+    <script src="js/lib/nav.fixed.top.js"></script>
+    <script src="js/lib/contact.js"></script>
+    <script src="js/main.js"></script>
+    <!-- JAVASCRIPTS END -->
+
+</body>
+
+</html>
